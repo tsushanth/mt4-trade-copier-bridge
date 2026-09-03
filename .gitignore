@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# runtime artifacts (real event/state/log files stay local)
+logs/*.csv
+logs/*.csv.offset
+logs/*.json
+logs/*.json.tmp
+logs/*.log
+.context/
